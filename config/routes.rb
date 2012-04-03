@@ -1,4 +1,8 @@
 Scs::Application.routes.draw do
+  resources :servidores
+
+  resources :linguagens
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

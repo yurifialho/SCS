@@ -1,0 +1,25 @@
+<%= form_for(@servidor) do |f| %>
+  <% if @servidor.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@servidor.errors.count, "erro") %> prohibited this servidor from being saved:</h2>
+
+      <ul>
+      <% @servidor.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </div>
+  <div class="field">
+    <%= f.label :ip %><br />
+    <%= f.text_field :ip %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
