@@ -4,7 +4,10 @@
   <b>Nome:</b>
   <%= @sistema.nome %>
 </p>
-
+<p>
+  <b>Linguagem:</b>
+  <%= @sistema.linguagem.nome unless @sistema.linguagem.nil? %>
+</p>
 
 <%= link_to 'Edit', edit_sistema_path(@sistema) %> |
 <%= link_to 'Back', sistemas_path %>
