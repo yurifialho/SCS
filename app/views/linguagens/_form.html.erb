@@ -1,0 +1,21 @@
+<%= form_for(@linguagem) do |f| %>
+  <% if @linguagem.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@linguagem.errors.count, "erro") %> nao permitiu que a linguagem seja salva:</h2>
+
+      <ul>
+      <% @linguagem.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
