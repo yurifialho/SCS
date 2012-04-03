@@ -11,6 +11,8 @@
 <% @sistemas.each do |sistema| %>
   <tr>
     <td><%= sistema.nome %></td>
+    <td><%= sistema.linguagem.nome unless sistema.linguagem.nil? %></td>
+
     <td><%= link_to 'Show', sistema %></td>
     <td><%= link_to 'Edit', edit_sistema_path(sistema) %></td>
     <td><%= link_to 'Destroy', sistema, confirm: 'Are you sure?', method: :delete %></td>

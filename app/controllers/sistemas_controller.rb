@@ -57,9 +57,12 @@ class SistemasController < ApplicationController
   # PUT /sistemas/1.json
   def update
     @sistema = Sistema.find(params[:id])
+    @linguagem = Linguagem.find(params[:sistema][:linguagem])
+    @sistema.nome = params[:sistema][:nome]
+    @sistema.linguagem = @linguagem if @linguagem
 
     respond_to do |format|
-      if @sistema.update_attributes(params[:sistema])
+      if @sistema.save 
         format.html { redirect_to @sistema, notice: 'Sistema was successfully updated.' }
         format.json { head :no_content }
       else
