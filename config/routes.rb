@@ -1,4 +1,6 @@
 Scs::Application.routes.draw do
+  resources :sistemas
+
   resources :servidores
 
   resources :linguagens
