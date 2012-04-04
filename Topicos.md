@@ -123,11 +123,10 @@ Backlog:
 Dia 5
 =====
 
-GIT
----
+### GIT
+
 
 Dia 6 em diante
 ===============
 
-TVN! :D
--------
+### TVN! :D
