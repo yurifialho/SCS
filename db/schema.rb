@@ -11,13 +11,12 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120403181512) do
+ActiveRecord::Schema.define(:version => 20120404193011) do
 
   create_table "linguagens", :force => true do |t|
     t.string   "nome"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.integer  "sistema_id"
   end
 
   create_table "servidores", :force => true do |t|
@@ -31,6 +30,7 @@ ActiveRecord::Schema.define(:version => 20120403181512) do
     t.string   "nome"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "sistema_id"
   end
 
 end

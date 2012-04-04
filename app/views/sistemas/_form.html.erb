@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :linguagem %><br />
-    <%= f.collection_select :linguagem, Linguagem.all, :id, :nome %>
+    <%= f.collection_select :sistema_id, Linguagem.all, :id, :nome %>
   </div>
   <div class="actions">
     <%= f.submit %>

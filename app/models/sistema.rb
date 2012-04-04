@@ -1,5 +1,5 @@
 class Sistema < ActiveRecord::Base
-  attr_accessible :nome, :linguagem
+  attr_accessible :nome, :linguagem, :sistema_id
 
-  has_one :linguagem
+  belongs_to :linguagem
 end
