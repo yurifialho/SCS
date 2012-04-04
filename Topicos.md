@@ -94,31 +94,31 @@ Continuando o desenvolvimento da aplicação.
 
 Backlog:
 
-	* Usar Postgresql
- 	* Mais validações (validar ip?)
-	* Adicionar o relacionamento com Servidor
-	* Adicionar um servidor na view
+	- Usar Postgresql
+ 	- Mais validações (validar ip?)
+	- Adicionar o relacionamento com Servidor
+	- Adicionar um servidor na view
 	
 	Se der tempo:
-	* Testes unitários 
-	* Debugging
+	- Testes unitários 
+	- Debugging
 
 Dia 3
 =====
 
 Backlog:
-	* Adicionar mais servidores por sistema
-	* Adicionar restrições (2 servidores por sistema)
-	* Adicionando um design decente (Twitter bootstrap?)
-	  * VER: _Asset Pipeline_
+	- Adicionar mais servidores por sistema
+	- Adicionar restrições (2 servidores por sistema)
+	- Adicionando um design decente (Twitter bootstrap?)
+	  - VER: _Asset Pipeline_
 
 Dia 4
 =====
 
 Backlog:
-	* Criar menus
-	* "Ajax"
-	* Deployment com Capistrano
+	- Criar menus
+	- "Ajax"
+	- Deployment com Capistrano
 
 Dia 5
 =====
