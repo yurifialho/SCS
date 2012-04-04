@@ -6,7 +6,7 @@ Configuração do Ambiente
 
 ### Instalação do RVM (Ruby Version Manager)
 
-bash -c <() blahblah
+bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
 
 ### Instalar dependências
     Ver `rvm notes`
