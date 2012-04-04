@@ -110,6 +110,7 @@ Backlog:
 
 	* Adicionando um design decente (Twitter bootstrap?)
 	  * VER: Asset Pipeline
+	* Criar menus
 	* "Ajax"
 	* Deployment com Capistrano
 
