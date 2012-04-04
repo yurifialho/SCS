@@ -97,7 +97,7 @@ Backlog:
 	* Usar Postgresql
  	* Mais validações (validar ip?)
 	* Adicionar o relacionamento com Servidor
-	* Adicionar restrições (2 servidores por sistema)
+	* Adicionar um servidor na view
 	
 	Se der tempo:
 	* Testes unitários 
@@ -107,10 +107,27 @@ Dia 3
 =====
 
 Backlog:
-
+	* Adicionar mais servidores por sistema
+	* Adicionar restrições (2 servidores por sistema)
 	* Adicionando um design decente (Twitter bootstrap?)
-	  * VER: Asset Pipeline
+	  * VER: _Asset Pipeline_
+
+Dia 4
+=====
+
+Backlog:
 	* Criar menus
 	* "Ajax"
 	* Deployment com Capistrano
 
+Dia 5
+=====
+
+GIT
+---
+
+Dia 6 em diante
+===============
+
+TVN! :D
+-------
