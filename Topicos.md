@@ -65,17 +65,17 @@ Configuração do Ambiente
 
 ### Alternativa: Aplicação já criada e adicionada ao controle de versão
 
-    Usar o comando `git clone git@github.com:outworlder/SCS.git` para baixar a aplicação direto do GitHub.
+Usar o comando `git clone git@github.com:outworlder/SCS.git` para baixar a aplicação direto do GitHub.
     
 ### Instalar as gems
 
-    `bundle install`
+    bundle install
 
 ### Iniciar o servidor
 
-    `rails s` ou `rails server`
+`rails s` ou `rails server`
 
-    Acessar em `http://localhost:3000`
+Acessar em `http://localhost:3000`
 
 
 Aplicação de exemplo
