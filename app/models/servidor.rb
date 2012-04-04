@@ -3,4 +3,6 @@ class Servidor < ActiveRecord::Base
 
   validates_presence_of :nome
   validates_presence_of :ip
+  
+  has_and_belongs_to_many :sistemas, :join_table => "sistemas_servidores"
 end
