@@ -1,5 +1,5 @@
-source 'http://172.25.137.101:8808'
-#source 'https://rubygems.org'
+#source 'http://172.25.137.101:8808'
+source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 
@@ -24,6 +24,15 @@ end
 
 gem 'jquery-rails'
 
+
+group :development, :test do 
+  gem 'guard-rspec'
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'faker'
+  gem 'mocha', :require => false
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
