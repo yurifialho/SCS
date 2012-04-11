@@ -26,12 +26,14 @@ gem 'jquery-rails'
 
 
 group :development, :test do 
+  gem 'spork'
   gem 'guard-rspec'
   gem 'rspec'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'mocha', :require => false
+  gem 'simplecov'
 end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
