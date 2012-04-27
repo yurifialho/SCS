@@ -1,5 +1,5 @@
-source 'http://172.25.137.101:8808'
-#source 'https://rubygems.org'
+#source 'http://172.25.137.101:8808'
+source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 
